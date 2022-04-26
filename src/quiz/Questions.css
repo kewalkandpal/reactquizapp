@@ -1,0 +1,69 @@
+.question {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 5px white;
+    margin: 30px 10px;
+}
+
+.question h2 {
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.myQuestion {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.myQuestion button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+    font-size: 16px;
+}
+
+.quit {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quit .bt {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+}
+
+.correct {
+    background-color: rgb(93, 244, 93);
+    color: white;
+}
+
+.wrong {
+    background-color: rgb(244, 116, 93);
+    color: white;
+}

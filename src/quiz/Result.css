@@ -1,0 +1,48 @@
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.result h2 {
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.result span {
+    font-weight: 500;
+    color: rgb(73, 250, 64);
+}
+
+.result .bt {
+    margin-top: 5px;
+    padding: 8px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    background-color: rgb(83, 198, 247);
+    color: rgb(35, 60, 247);
+    transition: 0.3s;
+}
+
+.result .bt:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:500px) {
+    .result h2 {
+        font-size: 20px;
+    }
+
+    .result .bt {
+        padding: 4px;
+    }
+}
