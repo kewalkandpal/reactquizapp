@@ -2,6 +2,8 @@ import './Home.css';
 import Categories from './categories';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import img2 from "../images/quiz.png";
+
 function Home({ name, setName, fetchQuestion }) {
     const [category, setCategory] = useState("");
     const [level, setLevel] = useState("");
@@ -44,7 +46,7 @@ function Home({ name, setName, fetchQuestion }) {
                     </div>
                 </div>
                 <div className="right_side">
-                   <img src='../quiz.png' alt="homeImage" />
+                   <img src={img2} alt="homeImage" />
                 </div>
             </div>
         </div>

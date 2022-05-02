@@ -5,6 +5,7 @@ import Result from './quiz/Result';
 import {Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
+import img1 from "./images/bgtwo.jpg";
 
 function App() {
   const [question, setQuestion] = useState();
@@ -16,7 +17,7 @@ function App() {
     setQuestion(data.results);
   }
   return (
-    <div className="app" style={{backgroundImage:`URL("../bgtwo.jpg")`,backgroundSize:"cover",backgroundPosition:"center"}}>
+    <div className="app" style={{backgroundImage:`URL(${img1})`,backgroundSize:"cover",backgroundPosition:"center"}}>
         <Routes>
           <Route path="/" element={<Home name={name} setName={setName} fetchQuestion={fetchQuestion} />}></Route>
           <Route path="/quiz" element={<Quiz question={question} setQuestion={setQuestion} name={name} score={score} setScore={setScore} />}></Route>
