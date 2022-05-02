@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/reactquizapp/static/css/main.e51d06a9.chunk.css",
-    "main.js": "/reactquizapp/static/js/main.26b20237.chunk.js",
-    "main.js.map": "/reactquizapp/static/js/main.26b20237.chunk.js.map",
+    "main.js": "/reactquizapp/static/js/main.e98fe5fd.chunk.js",
+    "main.js.map": "/reactquizapp/static/js/main.e98fe5fd.chunk.js.map",
     "runtime-main.js": "/reactquizapp/static/js/runtime-main.9e1f68bc.js",
     "runtime-main.js.map": "/reactquizapp/static/js/runtime-main.9e1f68bc.js.map",
     "static/js/2.e520ff76.chunk.js": "/reactquizapp/static/js/2.e520ff76.chunk.js",
     "static/js/2.e520ff76.chunk.js.map": "/reactquizapp/static/js/2.e520ff76.chunk.js.map",
     "index.html": "/reactquizapp/index.html",
     "static/css/main.e51d06a9.chunk.css.map": "/reactquizapp/static/css/main.e51d06a9.chunk.css.map",
-    "static/js/2.e520ff76.chunk.js.LICENSE.txt": "/reactquizapp/static/js/2.e520ff76.chunk.js.LICENSE.txt"
+    "static/js/2.e520ff76.chunk.js.LICENSE.txt": "/reactquizapp/static/js/2.e520ff76.chunk.js.LICENSE.txt",
+    "static/media/bgtwo.b53ed30d.jpg": "/reactquizapp/static/media/bgtwo.b53ed30d.jpg",
+    "static/media/quiz.72c04265.png": "/reactquizapp/static/media/quiz.72c04265.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9e1f68bc.js",
     "static/js/2.e520ff76.chunk.js",
     "static/css/main.e51d06a9.chunk.css",
-    "static/js/main.26b20237.chunk.js"
+    "static/js/main.e98fe5fd.chunk.js"
   ]
 }
